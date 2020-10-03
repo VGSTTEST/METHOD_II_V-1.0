@@ -15,99 +15,60 @@
         
     </head>
     <body>
+        <div class="holdup">    
+
         <h1>Annexure-III</h1>
+        <h4>Details of Principal Investigator</h4>
+
+        </div>
         <form id="Proposals">
-            <h4>Details of Principal Investigator</h4>
-            <table class="css-serial">
-                <thead>
-                <tr>
-                 <th>Sr. No</th>
-                 <th>DETAILS</th>
-                 <th>ENTER THE DETAILS</th>
-                 </tr>
-                </thead>
-                <tbody>
 
-                <tr>
-                 <td>&nbsp;</td>
-                 <td><label for="Name ">Name:</label></td>
-                 <td><input type="text" id="PrincipalInvestigatorName"></td>
-                </tr>
-
-                <tr>
-                 <td>&nbsp;</td>
-                 <td><label for="Date of Birth & Gender" >Date of Birth & Gender:<br><small>(Age as on 30/10/2019)</small></label></td>
-                 <td>
-                    <input type="date" id="PrincipalInvestigatorDOB" ><br>
-                    <input class="radio" type="radio" id="PrincipalInvestigatorGender" name="gender" value="male">
-                    <label for="male">Male</label><br>
-                    <input class="radio" type="radio" id="PrincipalInvestigatorGender" name="gender" value="female">
-                    <label for="female">Female</label><br>
-                    <input class="radio" type="radio" id="PrincipalInvestigatorHender" name="gender" value="other">
-                    <label for="other">Other</label><br>
-                 </td>
-                </tr>
-
-                <tr>
-                 <td>&nbsp;</td>
-                 <td><label for="Qualification :">Qualification :</label></td>
-                 <td><input type="text" id="PrincipalInvestigatorQualification"></td>
-                </tr>
-
-                <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Designation">Designation:</label></td>
-                    <td><input type="text" id="PrincipalInvestigatorDesignation"></td>
-                   </tr>
-
-                   <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Department">Department :</label></td>
-                    <td><input type="text" id="PrincipalInvestigatorDepartment"></td>
-                    <br>
-                   </tr>
-
-                   <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Year of teaching/research experience">Year of teaching/research experience:</label></td>
-                    <td><input type="text" id="PrincipalInvestigatorExperience"></td>
-                 
-                   </tr>
-
-                   <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Email ID">Email ID
-                        </label></td>
-                     <td><input type="email" id="PrincipalInvestigatorEmail"></td>
-                   </tr>
-
-                   <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Cell number">Cell number</label></td>
-                    <td><input type="number" id="PrincipalInvestigatorPhoneNo"></td>
-                   </tr>
-
-                   <tr>
-                    <td>&nbsp;</td>
-                    <td><label for="Residential Address">Residential Address:</label></td>
-                    <td><textarea type="text" id="PrincipalInvestigatorResidentialAddress"></textarea></td>
-                   </tr>
-                   
-                </tbody>
-            </table>
-           
-                <button class="submit" type="submit">Submit</button>
-              
-        </form>
-        
-  <footer>
-    <div class="Switch">
-        <a href="1.About the project and other info.html"><div  class="switch01">Previous</div></a>
-        <a href="3.Details of Co-Principal Investigator.html"><div class="switch02">Next</div></a>
-    </div>
+            <div class="holdit">    
+                <label for="Name ">1.Name:</label><br>
+                <input placeholder="Name" type="text" id="PrincipalInvestigatorName">
+            </div>
+            <div class="holdit">
+                <label for="Date of Birth & Gender" >2.Date of Birth & Gender: <small>(Age as on 30/10/2019)</small></label><br><br>
+                <input class="radio" type="radio" id="PrincipalInvestigatorGender" name="gender" value="male">Male<br>
+                <input class="radio" type="radio" id="PrincipalInvestigatorGender" name="gender" value="female">Female<br>
+                <input class="radio" type="radio" id="PrincipalInvestigatorHender" name="gender" value="other">Others<br><br>
+                <input type="date" id="PrincipalInvestigatorDOB" ><br>
+            </div>
+            <div class="holdit"> 
+                <label for="Qualification :">3.Qualification :</label>
+                <input placeholder="Qualification" type="text" id="PrincipalInvestigatorQualification">
+            </div>
+            <div class="holdit"> 
+                <label for="Designation">4.Designation:</label>
+                <input placeholder="Designation" type="text" id="PrincipalInvestigatorDesignation">
+            </div>
+            <div class="holdit"> 
+                <label for="Department">5.Department:</label>
+                <input placeholder="Department" type="text" id="PrincipalInvestigatorDepartment">
+            </div>
+            <div class="holdit"> 
+                <label for="Year of teaching/research experience">6.Year of teaching/research experience:</label></td>
+                <input placeholder="Year of teaching/research experience" type="text" id="PrincipalInvestigatorExperience">
+            </div>
+            <div class="holdit">
+                <label for="Email ID">7.Email ID:</label>
+                <input  placeholder="Email" type="email" id="PrincipalInvestigatorEmail">
+            </div>
+            <div class="holdit">
+                <label for="Cell number">8.Cell number</label>
+                <input type="number" id="PrincipalInvestigatorPhoneNo">
+            </div>
+            <div class="holdit">
+                <label for="Residential Address">9.Residential Address:</label>
+                <textarea type="text" id="PrincipalInvestigatorResidentialAddress"></textarea>
+            </div>
+  <footer class="holddown">
+        <button class="submit" type="submit">Submit</button>
+        <a class="switch01" href="1.About the project and other info.html">Previous</a>
+        <a class="switch02" href="3.Details of Co-Principal Investigator.html">Next</a>
   </footer>
+</form>
   <script src="js/Details of Principal Investigator.js"></script>
 
-          </body>
-
+        </body>
 </html>
