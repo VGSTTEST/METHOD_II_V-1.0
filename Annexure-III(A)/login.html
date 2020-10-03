@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>VGST_LOGIN</title>
+        <link rel="stylesheet" href="../css/login.css">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+<script src="/__/firebase/7.20.-/firebase-database.js"></script>
+
+    </head>
+    <body>
+      
+        <table class="Setup">
+            <tbody>
+                <tr>
+                    <td><p id="start1">VGST LOGIN</p>
+                    <p id="start2">Register to VGST</p>
+                    <p id="start3"> Welcome</p>
+                    <p id="getget"></p>
+                </td></tr>
+                <tr>
+                   <td>
+                    <button class="google" onclick="google()" id="signInWithGoogle">Google Sign In</button>
+                    <input placeholder="Email" class="enter" type="email" id="temail">
+                    <input placeholder="Password" class="enter" type="password" id="tpassword">
+                    <input placeholder="Verify Password" class="enter" type="password" id="verifypassword">
+
+                    <button onclick="enterotp()" id="next">NEXT</button>
+                    <button   id="login">LOG IN</button>
+                    <button   id="signUp">SIgn Up</button>
+                    <button   id="logout">Log Out</button>
+                </td>  
+                </tr>
+                <tr><td class="problem"><a class="atag" href="forgotpsw.html"><br>Forgot Password?</a></td></tr>
+                <tr>
+                    <td class="problem" onclick="myFunction()" id="reg"> Don't have an account?<br> Register</td>
+                </tr>
+                <tr>
+                    <td class="problem"><a href="../index.html" > <button class="cancle">Cancle</button></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="js/login.js"></script>
+    </body>
+</html>

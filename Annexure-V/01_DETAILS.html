@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/VGST.css">
+        <title>
+            Annexure-V
+        </title>
+    </head>
+    <body>
+        <h2>ANNEXURE- V</h2>
+        <h4>
+            SCHEME: FACULTY DEVELOPMENT PROGRAMME (FDP)
+        </h4>
+       
+            <form id="Proposals">
+                <table>
+                <thead>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>DETAILS</th>
+                        <th>ENTER THE DETAILS</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            1.
+                        </td>
+                        <td>
+                            Title of the Programme (FDP)
+                        </td>
+                        <td>
+                            <input id="Title" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2.
+                        </td>
+                        <td>
+                            Name and Address of the College/Institute
+                        </td>
+                        <td>
+                            <input id="NameCollege" type="text" >
+                            <br>
+                            <textarea placeholder="Address" id="AddressoftheCollege"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            a)
+                        </td>
+                        <td>
+                            College/Institute Email Id:
+                        </td>
+                        <td>
+                            <input id="College/InstituteEmailId" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            b)
+                        </td>
+                        <td>
+                            Website
+                        </td>
+                        <td>
+                            <input type="url" id="Website" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            c)
+                        </td>
+                        <td>
+                            College/Institute Landline Number
+                        </td>
+                        <td>
+                            <input type="number" id="InstituteLandlineNumber">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3.
+                        </td>
+                        <td>
+                            Name of the Principal Programme Coordinator
+                        </td>
+                        <td>
+                            <input type="text" id="NameofthePrincipalProgrammeCoordinator">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            a)
+                        </td>
+                        <td>
+                            Qualification
+                        </td>
+                        <td>
+                            <input type="text" id="PrincipalQualification">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            b)
+                        </td>
+                        <td>
+                           Gender
+                        </td>
+                        <td>
+                            <input class="radio" type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input class="radio" type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            c)
+                        </td>
+                        <td>
+                            Designation & Department
+                        </td>
+                        <td>
+                            <input placeholder="Designation" type="text" id="PrincipalDesignation">
+                            <br>
+                            <input placeholder="Department" type="text" id="PrincipalDepartment">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            d)
+                        </td>
+                        <td>
+                            Years of Teaching/Research/Industry Experience
+                        </td>
+                        <td>
+                            <input type="number" id="PrincipalYearsofExperience">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            e)
+                        </td>
+                        <td>
+                            Email ID
+                        </td>
+                        <td>
+                            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="PrincipalEmailID">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            f)
+                        </td>
+                        <td>
+                            Cell Number
+                        </td>
+                        <td>
+                            <input type="number" id="PrincipalCellNumber">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            g)
+                        </td>
+                        <td>
+                            Residential Address
+                        </td>
+                        <td>
+                            <textarea name="residential_address" id="PrincipalResidentialAddress" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            4.
+                        </td>
+                        <td>
+                            Name of the Co-Principal Programme Coordinator
+                        </td>
+                        <td>
+                            <input type="text" id="Co_PrincipalName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            a)
+                        </td>
+                        <td>
+                            Qualification
+                        </td>
+                        <td>
+                            <input type="text" id="Co_PrincipalQualification">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            b)
+                        </td>
+                        <td>
+                           Gender
+                        </td>
+                        <td>
+                            <input class="radio" type="radio" name= "gender" value=male  id="Co_PrincipalM"> male
+                            <input class="radio" type="radio" name= "gender" value=female  id="Co_PrincipalF">female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            c)
+                        </td>
+                        <td>
+                            Designation & Department
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Designation"  id="Co_PrincipalDesignation">
+                            <br>
+                            <input type="text" placeholder="Department" id="Co_PrincipalDepartment">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            d)
+                        </td>
+                        <td>
+                            Years of Teaching/Research/Industry Experience
+                        </td>
+                        <td>
+                            <input type="number" id="Co_PrincipalYearsofTeaching">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            e)
+                        </td>
+                        <td>
+                            Email ID
+                        </td>
+                        <td>
+                            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="Co_PrincipalEmailID">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            f)
+                        </td>
+                        <td>
+                            Cell Number
+                        </td>
+                        <td>
+                            <input type="number" id="Co_PrincipalCellNumber">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            g)
+                        </td>
+                        <td>
+                            Residential Address
+                        </td>
+                        <td>
+                            <textarea name="residential_add"  id="Co_PrincipalResidentialAddress" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5.
+                        </td>
+                        <td>
+                            Designation of the Head of the Institution
+                        </td>
+                        <td>
+                            <input type="text"  id="DesignationoftheHeadoftheInstitution">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            6.
+                        </td>
+                        <td>
+                            If Your Proposal is selected, the Cheque/DD to be written in favour of
+                        </td>
+                        <td>
+                            <input type="text" id="DDtobewritteninfavourof">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            7.
+                        </td>
+                        <td colspan="2">
+                            Please provide the bank account details for which the amount to be credited
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            a)
+                        </td>
+                        <td>
+                            Name of the Account holder
+                        </td>
+                        <td>
+                            <input type="text" id="NameoftheAccountholder">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            b)
+                        </td>
+                        <td>
+                            Name of the Bank
+                        </td>
+                        <td>
+                            <input type="text" id="NameoftheBank">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            c)
+                        </td>
+                        <td>
+                            The Branch Address
+                        </td>
+                        <td>
+                            <textarea name="Branch_Address" id="TheBranchAddress"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            d)
+                        </td>
+                        <td>
+                            IFS code
+                        </td>
+                        <td>
+                            <input type="text" id="IFScode" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            e)
+                        </td>
+                        <td>
+                            SB A/c Number
+                        </td>
+                        <td>
+                            <input type="number" id="SBA/cNumber">
+                        </td>
+                    </tr>
+                </tbody>
+        </table>
+        <br><br>
+       <button class="submit" type="submit" >Submit</button></a>
+    </form>
+    <footer>
+        <div class="Switch">
+            <a href="Annexure-II.html"><div  class="switch01">Previous</div></a>
+            <a href="../Annexure-V/02_DETAILS_OF_THE_FACULTY_DEVELOPMENT_PROGRAMME_(FDP).html"><div class="switch02">Next</div></a>
+        </div>
+      </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+            <script src="js/01_DETAILS.js"></script>
+
+    </body>
+</html>

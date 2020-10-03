@@ -1,0 +1,100 @@
+body{
+    background-image: url(../css/Images/VGST.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5vw;
+}
+@media only screen and (max-width: 1080px) {
+
+    body{
+        background-image: url(../css/Images/smallVGST.jpg);
+        background-repeat: no-repeat;
+        padding: 8vw;
+        background-size: 150%;
+    
+    }
+}    
+table{
+    margin: auto;
+}
+.Setup{
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    padding: 3vw;
+    color:  rgb(0, 0, 0);
+}
+.enter, #verifypassword{
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    background-color: rgba(241, 241, 241, 0.938);
+    padding: 5px;
+    font-size: 17px;
+    display: block;
+}
+#getget{
+    font-size: 18px;
+}
+
+#login,#logout,#signUp,#next{
+    height: 40px;
+    width: 362px;
+    color: #ffffff;
+    border: none;
+    background-color: rgba(96, 192, 66, 0.787);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+.cancle{
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+    border: none;
+    background-color: rgba(255, 36, 36, 0.897);
+    border-radius: 5px;
+}
+
+
+.google{
+    height: 40px;
+    width: 360px;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(55, 80, 189);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#start1,#start2,#start3{
+    border: #ff4848a9 solid;
+    border-top: #00000000;
+    border-left:  #00000000;
+    border-right:  #00000000;
+    font-size: 25px;
+    color: rgb(238, 67, 67);
+}
+
+
+.problem{
+    text-align: center;
+}
+#reg,.atag{
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#verifypassword,#logout,#signUp,#start2,#otp,#next,#start3{
+    display: none;
+}

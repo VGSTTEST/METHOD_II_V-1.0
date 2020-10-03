@@ -1,0 +1,142 @@
+body
+{
+    background-color: #272727;
+    font-family: "Lato", sans-serif;
+
+}
+header
+{
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border: #ffffff3b solid;
+    border-left: #00000000;
+    border-right: #00000000;
+    border-top: #00000000;}   
+h1{
+    text-align: center;
+    font-size: 2.5vw;
+}
+h4,h3
+{
+    color: #ffffff;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: #ffffff3b solid;
+    border-left: #00000000;
+    border-right: #00000000;
+    border-top: #00000000;
+}
+input{
+    background-color: #25252500;
+    border: none;
+    height: 30px;
+    border: #ffffff70 solid;
+}
+div.part1
+{
+    color: #e6e6e6;
+    background-color: #ffffff21;
+    border-radius: 1vw 1vw 1vw 1vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+div.part2
+{
+    color: #e6e6e6;
+    background-color: #ffffff21;
+    border-radius: 1vw 1vw 1vw 1vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+td,th,table
+{
+    border: 0.3vw solid rgba(42, 42, 42, 0);
+    font-size: 2vw;
+    margin: auto;
+    color: #ffffff;
+
+}
+table.tab
+{
+    border: 0.3vw solid rgb(172, 172, 172);
+    height: 50%;
+    width: auto;
+    padding: 2px;
+}
+.submit
+{
+    margin-left: 44vw;
+    width: 10vw;
+    text-decoration: none;
+    text-align: center;
+    padding: 1vw;
+    border: none;
+    color: #ffffff;
+    background-color:#8b8b8b;
+    font-size: 1.2vw;
+    border-radius: 0.5vw;
+  }
+a{
+    text-decoration: none;
+}
+  
+  .text{
+    font-size: 20px;
+    color: #e6e6e6;
+    background-color: #ffffff21;
+    border-radius: 1vw 1vw 1vw 1vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+  .note{
+    color: #e6e6e6;
+    background-color: #ffffff21;
+    border-radius: 1vw 1vw 1vw 1vw;
+    font-size: 25px;
+    padding: 2px;
+  }
+  li{
+      padding: 0 1vw 0 0;
+  }
+  
+  .switch01{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10vw;
+    margin-bottom: 3vw;
+    padding: 13px;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    border: none;
+    color: #ffffff;
+    background-color:#ffffff2d;
+    font-size: 1.2vw;
+    border-radius: 0.5vw;
+}
+
+.switch02{
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 10vw;
+  margin-bottom: 3vw;
+  padding: 1vw;
+  width: 150px;
+  border: none;
+  color: #ffffff;
+  background-color:#ffffff2d;
+  font-size: 1.2vw;
+  border-radius: 0.5vw;
+}  
