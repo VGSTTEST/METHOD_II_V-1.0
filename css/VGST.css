@@ -1,12 +1,12 @@
 body {
   font-family: "Open Sans", helvetica, arial;
   text-align: justify center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(221, 221, 221, 0.774);
   margin: 1vw;
   color: rgb(0, 0, 0);
   border-radius: 1vw;
-  padding: 3vw;
   background-repeat: no-repeat;
+  margin: auto;
     }
 
 
@@ -15,7 +15,6 @@ body {
      }
   
     form{
-      background-color: #424fc017;
       padding: 2px;
       margin: auto;
     }
@@ -133,9 +132,7 @@ body {
 
 .switch01{
   float: left;
-  margin-top: 20px;
-  margin-left: 10vw;
-  margin-bottom: 3vw;
+  margin-left: 150px;
   padding: 13px;
   text-decoration: none;
   text-align: center;
@@ -153,9 +150,7 @@ a{
 float: right;
 text-decoration: none;
 text-align: center;
-margin-top: 20px;
-margin-right: 10vw;
-margin-bottom: 3vw;
+margin-right: 160px;
 padding: 1vw;
 width: 150px;
 border: none;
@@ -169,7 +164,6 @@ border-radius: 0.5vw;
 
 .submit
 {
-  margin-left: 40.5vw;
   margin-top: 1vw;
   margin-bottom: 5px;
   text-decoration: none;
@@ -180,14 +174,76 @@ border-radius: 0.5vw;
   color: #ffffff;
   background-color:rgb(58, 204, 44);
   font-size: 1.2vw;
+  display: block;
   border-radius: 0.5vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Switch,.contain{
   margin: 2vw;
   height: 15vw;
 }
+
+/* new style*/
+.holdup{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: rgba(172, 172, 172, 0.602) inset 5px;
+  color: rgb(90, 90, 90);
+
+}
 input , textarea{
   height: 30px;
-  width: 250px;
-  border: #5d5d5d6e solid 1px;
+  width: 590px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: rgba(87, 87, 87, 0.582) solid 2px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  max-width:590px ;
+  color: rgb(90, 90, 90);
+
+
+}
+input:active , textarea:active{
+  border: none;
+  border-bottom: rgba(255, 0, 0, 0.582) solid 2px;
+}
+.holdit{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  width: 600px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.holdit:hover{
+    border: none;
+  border-left: blue solid 5px;
+}
+.holdit:active{
+  border: none;
+  border-left: rgb(255, 0, 0) solid 5px;
+  transition: none;
+
+}
+.holddown{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  border-top: rgba(230, 230, 230, 0.561) outset 5px;
+  color: rgb(90, 90, 90);
+  overflow: auto;
 }
