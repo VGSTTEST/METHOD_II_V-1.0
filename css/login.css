@@ -18,7 +18,10 @@ table{
     margin: auto;
 }
 .Setup{
-    background-color: rgba(255, 255, 255, 0.644);
+    border: none;
+    border-top: #ff4848a9 solid 10px;
+    border-bottom: #ff4848a9 solid 10px;
+    background-color: rgba(255, 255, 255, 0.76);
     border-radius: 5px;
     font-size: 20px;
     font-weight: bolder;
@@ -38,6 +41,12 @@ table{
     font-size: 17px;
     display: block;
 }
+.enter:active, #verifypassword:active,.enter:hover, #verifypassword:hover{
+    
+    border-left:rgba(0, 17, 255, 0.548) solid 5px ;
+
+}
+
 #getget{
     font-size: 18px;
 }
