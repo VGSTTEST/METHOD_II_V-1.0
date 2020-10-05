@@ -18,11 +18,11 @@ body{
 
     }
     .IMG{ 
-        float: left;
+       float: left;
         width: 45px;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-left: 20px;
+        margin: 5px;
+        margin-left:20px;
+        margin-right:20px;
 
     }
 
@@ -44,7 +44,7 @@ body{
     }
 
     
-    .atag:hover,.btn:hover{
+    .atag:hover,.IMG:hover{
       transition: ease-in-out 0.1s;     
       border: none;
       border-bottom: rgba(246, 246, 246, 0.671) solid 5px;
@@ -93,7 +93,6 @@ body{
       @media screen and (max-height: 450px) {
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
-       
       }
 
       .topnav {
@@ -106,8 +105,8 @@ body{
         background-color: #333;
         position: -webkit-sticky; /* Safari */
         position: sticky;
+        border-radius: 5px;
       }
-
       .content{
         font-size: 30px;
         color: #f1f1f1;
@@ -164,4 +163,41 @@ a{
     padding: 2px 20px;
     text-align: center;
     width: 250px;
+}
+@media only screen and (max-width: 1080px) {
+    .atag  {
+    padding: 35px 40px;
+    font-size: 35px;
+  }
+  .active  {
+    padding: 35px 40px;
+    font-size: 35px;
+  }
+  .topnav {
+    display: block;
+  }
+  .IMG{ 
+     width: 80px;
+     margin: 10px;
+     margin-left:40px;
+     margin-right:40px;
+ }
+.container{
+font-size: 10px;
+}
+.content{
+  font-size: 15px;
+}
+ .under{
+      font-size: 10px;
+  }
+
+  .body{
+      font-size: 13px;
+}
+
+.left_nav{
+  font-size: 30px;
+}
+
 }
