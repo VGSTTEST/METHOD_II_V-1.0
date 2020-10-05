@@ -20,10 +20,10 @@ body{
     .IMG{ 
        float: right;
         width: 45px;
-        margin: 5px;
+        margin: 10px;
         margin-left:20px;
         margin-right:20px;
-
+        margin-top: 10px;
     }
 
     .atag  {
