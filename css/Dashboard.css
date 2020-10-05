@@ -18,7 +18,7 @@ body{
 
     }
     .IMG{ 
-       float: left;
+       float: right;
         width: 45px;
         margin: 5px;
         margin-left:20px;
@@ -32,6 +32,12 @@ body{
       text-align: center;
       display: inline-block;   
     }
+    .btn{
+      float: left;
+      color: #ffffff;
+      font-size: 30px;
+      padding: 10px 30px;
+    }
     .active  {
       background-color: rgba(46, 180, 52, 0.904);
       color: #ffffff;
@@ -44,7 +50,7 @@ body{
     }
 
     
-    .atag:hover,.IMG:hover{
+    .atag:hover,.IMG:hover,.btn:hover{
       transition: ease-in-out 0.1s;     
       border: none;
       border-bottom: rgba(246, 246, 246, 0.671) solid 5px;
@@ -166,7 +172,7 @@ a{
 }
 @media only screen and (max-width: 1080px) {
     .atag  {
-    padding: 35px 40px;
+    padding: 35px 40px; 
     font-size: 35px;
   }
   .active  {
@@ -174,16 +180,17 @@ a{
     font-size: 35px;
   }
   .topnav {
-    display: block;
+    width: 100%;
   }
-  .IMG{ 
+.IMG{ 
      width: 80px;
      margin: 10px;
-     margin-left:40px;
-     margin-right:40px;
+     margin-left:20px;
+     margin-right:20px;
  }
+
 .container{
-font-size: 10px;
+font-size: 15px;
 }
 .content{
   font-size: 15px;
@@ -195,9 +202,15 @@ font-size: 10px;
   .body{
       font-size: 13px;
 }
-
+.style{
+  width: 100%;
+}
 .left_nav{
   font-size: 30px;
 }
+.btn{
+  font-size: 60px;
+}
+
 
 }
