@@ -23,7 +23,7 @@ body{
         margin: 10px;
         margin-left:20px;
         margin-right:20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .atag  {
@@ -184,6 +184,7 @@ a{
   }
 .IMG{ 
      width: 80px;
+    margin-top: 30px;
  }
 
 .container{
